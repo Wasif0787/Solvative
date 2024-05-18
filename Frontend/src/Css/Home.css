@@ -1,0 +1,33 @@
+table {
+    width: 100vw;
+    padding: 20px;
+}
+
+thead {
+    padding-top: 10px;
+
+}
+
+tr {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+
+.add {
+    font-size: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.login-btn {
+    text-decoration: none;
+    color: black;
+}
+
+.add:hover,
+.login-btn:hover {
+    cursor: pointer;
+}

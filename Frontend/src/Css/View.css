@@ -1,0 +1,75 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.user-field {
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 15px;
+    /* text-transform: capitalize; */
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.user-save {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.save {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #00E676;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px grey solid;
+}
+
+.save:hover {
+    background-color: #69F0AE;
+}
+
+.cancel {
+    background-color: red;
+}
+
+.cancel:hover {
+    background-color: #FF8A80;
+}
+
+.p5-btn {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #536DFE;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px grey solid;
+
+}
+
+.p5-btn:hover {
+    background-color: #8C9EFF;
+}

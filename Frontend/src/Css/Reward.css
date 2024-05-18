@@ -1,0 +1,51 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select {
+    width: 50vw;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 0px 10px;
+    margin: 10px;
+}
+
+.balance {
+    width: 50vw;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.reward-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.save {
+    background-color: #00E676;
+}
+
+.save:hover {
+    background-color: #69F0AE;
+}
+
+.cancel {
+    background-color: red;
+}
+
+.cancel:hover {
+    background-color: #FF8A80;
+}
