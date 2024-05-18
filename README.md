@@ -23,6 +23,7 @@
 ### Prerequisites
 
 Your system must have Node.js installed in your system.
+Nodemon (use `npm i nodemon` to install)
 
 ```bash
 
@@ -36,28 +37,35 @@ npm start
 
 cd frontend
 npm i
-npm start
+npm run dev
+
 ```
 
-Now you can open and view the webpage on your local system.
+## Access Website
+
+Go to [http://localhost:5173](http://localhost:5173) to view the website.
 
 # Completed
 
 ### Frontend
 
-- Home page - shows the list of all users.
-- Rewards - shows the history of all reward points received.
-- P5 - shows transaction history of points sent, options to delete the transaction and an option to create a new transaction.
-- Create user - option to add new user(s).
-- View user - shows the details of the selected user.
-- Transaction - select the user who will receive the points and the amount of points to send.
+- Homepage with all users - Table of all users
+  ![Users List View](snapshots/all_users.png)
+- Create user: A form to create Page, click + on homepage to create
+  ![New User](snapshots/create_user.png)
+- Update User - Click on Login on homepage to update
+  ![Update User](snapshots/update.png)
+- Send P5 points as a reward to other users - Click on P5 button on Update page to send reward
+  ![Send Reward](snapshots/send.png)
 
 ### Backend
 
-- REST APIs
+- Models
+
   - User model, Reward model
-  - get all users
-  - view users
-  - update users
-  - create users
-  - transaction of points
+
+- REST API
+  - getAllUsers
+  - createUser
+  - viewUser
+  - updateuser
