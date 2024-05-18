@@ -37,13 +37,10 @@ npm start
 
 cd frontend
 npm i
-npm run dev
-
+npm start
 ```
 
-## Access Website
-
-Go to [http://localhost:5173](http://localhost:5173) to view the website.
+Now you can open and view the webpage on your local system.
 
 # Completed
 
@@ -69,3 +66,4 @@ Go to [http://localhost:5173](http://localhost:5173) to view the website.
   - createUser
   - viewUser
   - updateuser
+  - transactions
