@@ -36,10 +36,10 @@ npm start
 
 cd frontend
 npm i
-npm start
+npm run dev
 ```
 
-Now you can open and view the webpage on your local system.
+Now you can open localhost of front-end and view the webpage on your local system.
 
 # Completed
 
